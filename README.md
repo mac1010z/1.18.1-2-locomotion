@@ -1,6 +1,6 @@
-# 🚂 Locomotion
+# 🚂 Locomotion 1.18.1 and 1.18.2 (I'm not sure about 1.18.2) (and dependency)
 
-(Formerly known as Trainguy's Animation Overhaul)
+(Formerly known as Trainguy's Animation Overhaul) Note from Mac: This is the version download by the way!
 
 Locomotion is a Minecraft: Java mod centered around giving the game's entities and blocks complex gameplay-driven animations through a real-time animation system inspired by Unreal Engine's Animation Blueprints.
 
@@ -14,23 +14,10 @@ Locomotion is a Minecraft: Java mod centered around giving the game's entities a
 - 🟥 Low Priority
 - ❌ Currently out-of-scope
 
-| Feature                         | Status | Notes                                                                                                                                                                                         |
-|:--------------------------------|:-------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pose Function System            | 🟩     | Implementation of state machines, blend spaces, and montage tracks.                                                                                                                           |
-| PyQT Maya Exporter              | 🟩     | Tool for exporting animations out of Maya with new format with scale support.                                                                                                                 |
-| First Person Player Animations  | 🟨     | The first proper stress-test of the system.                                                                                                                                                   |
-| In-game configuration           | 🟩     | Settings for tweaking individual aspects of different joint animators.                                                                                                                        |
-| Block / Block Entity Animations | 🟥     | Would like to re-add support for block animations, similar to the earlier implementation with Pollen, after first person animations are far enough along.                                     |
-| Third Person Player Animations  | 🟥     | Whether or not this will be included with the release version or not is TBD.                                                                                                                  |
-| Back-porting                    | 🟥     | Depends on the demand, given that this mod is intended to be used on vanilla-ish versions of the game and usually people playing vanilla don't often play older versions.                     |
-| Synchronised Sound              | ❌      | I don't know how the sound system works currently, or what it would take to make sounds trigger with animations without breaking other sound mods, but it's something I'm keeping in mind.    |
-| Open API for Modding            | 🟥     | I would like to lock down the design of the animation systems further before considering making this an open API                                                                              |
-| Entity Animations               | ❌      | Too high-scope to do on my own at this juncture, requires a large amount of animations/character rigs. Functionality will support it if I were to find somebody to help out on this.          |
-| Data-Driven Joint Animators     | ❌      | Design would need to be locked down enough prior to considering this.                                                                                                                         |
 
 ## 🔗 Socials
 - Discord server: https://discord.gg/KxqCSGhaFZ
-- My Twitter: https://twitter.com/Trainguy9512
+-  Twitter: https://twitter.com/Trainguy9512
 - Discord contact: @trainguy9512
 - Moonflower Website: https://moonflower.gg/
 - Moonflower Twitter: https://www.moonflower.gg/twitter
